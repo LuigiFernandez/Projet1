@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Projet1</string>
+    <string name="mainActivity">Main Activity</string>
+    <string name="label_pseudo">Pseudo :</string>
+    <string name="label_ok">OK</string>
+    <string name="se_souvenir_de_moi">Se souvenir de moi</string>
+</resources>
