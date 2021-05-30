@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     private var btnOK: Button? = null
     private var sp: SharedPreferences? = null
     private var editor: SharedPreferences.Editor? = null
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -80,16 +81,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             // Sinon, le champ doit être vide
             edtPseudo!!.setText("")
         }
-    }
-
-    override fun onResume() {
-        super.onResume()
-        Log.i(CAT, "onResume") // trace d'exécution
-    }
-
-    override fun onRestart() {
-        super.onRestart()
-        Log.i(CAT, "onRestart") // trace d'exécution
     }
 
     override fun onClick(v: View) {
